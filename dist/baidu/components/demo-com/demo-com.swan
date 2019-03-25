@@ -1,0 +1,3 @@
+<view class="demo-com  cml-base cml-view">
+  <text class="title  cml-base cml-text">{{title}}</text>
+</view>

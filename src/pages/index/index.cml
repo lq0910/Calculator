@@ -2,7 +2,7 @@
   <page title="chameleon">
       <scroller height="{{-1}}">
         <view class="scroller-wrap">
-          <demo-com title="{{title}}" image-src="{{chameleonSrc}}"></demo-com>
+          <cal-index title="{{title}}"></cal-index>
         </view>
       </scroller>
   </page>
@@ -12,8 +12,8 @@
 
 class Index  {
   data = {
-    title: "chameleon",
-    chameleonSrc: require('../../assets/images/chameleon.png')
+    title: "cal init"
+    //chameleonSrc: require('../../assets/images/chameleon.png')
   }
 }
 
@@ -33,7 +33,7 @@ export default new Index();
 {
   "base": {
     "usingComponents": {
-      "demo-com": "/components/demo-com/demo-com"
+      "cal-index": "/components/cal-index/cal-index"
     }
   },
   "wx": {
@@ -46,15 +46,6 @@ export default new Index();
     "pullRefresh": false,
     "allowsBounceVertical": "YES",
     "titleBarColor": "#ffffff"
-  },
-  "baidu": {
-    "navigationBarBackgroundColor": "#ffffff",
-    "navigationBarTextStyle": "white",
-    "navigationBarTitleText": "index",
-    "backgroundColor": "#ffffff",
-    "backgroundTextStyle": "dark",
-    "enablePullDownRefresh": false,
-    "onReachBottomDistance": 50
   }
 }
 </script>

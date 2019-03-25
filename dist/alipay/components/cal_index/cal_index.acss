@@ -1,0 +1,25 @@
+.cml-601d3b1c.demo-com {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.cml-601d3b1c.title {
+  -webkit-align-self: center;
+          align-self: center;
+  color: #61c7fc;
+  font-size: 72rpx;
+  margin-top: 160rpx;
+  margin-bottom: 20rpx;
+}
+.cml-601d3b1c.logo {
+  width: 150rpx;
+  height: 150rpx;
+  margin-top: 100rpx;
+}
