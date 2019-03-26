@@ -1,10 +1,11 @@
 <template>
   <page title="chameleon">
-      <scroller height="{{-1}}">
-        <view class="scroller-wrap">
-          <cal-index title="{{title}}"></cal-index>
-        </view>
-      </scroller>
+    <view class="container">
+        <view class="cal-hd">
+        <text class="equation">{{title}}</text>
+        <text class="result">0</text>
+    </view>
+    </view>
   </page>
 </template>
 
@@ -12,7 +13,7 @@
 
 class Index  {
   data = {
-    title: "cal init"
+    title: "1+1"
     //chameleonSrc: require('../../assets/images/chameleon.png')
   }
 }
@@ -22,9 +23,47 @@ export default new Index();
 </script>
 <style>
 
-.scroller-wrap {
+.container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* flex-direction: column;
+  align-items: center; */
+}
+.cal-hd {
+  border:1px solid #e5e5e56b;
+  border-radius: 10cpx;
+  display:flex;
+  margin:26cpx;
+  padding:16cpx;
+}
+.equation {
+  align-self: center;
+  color: #61c7fc;
+  font-size: 62cpx;
+  margin-top: 120cpx;
+  margin-bottom: 20cpx;
+}
+.result {
+  color:black;
+  font-size:72cpx;
+  font-weight:bold;
+  text-align:right;
+}
+.cal-bd {
   display: flex;
-  flex-direction: column;
+  font-size: 32cpx;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.cal-bd-item {
+  width: 200cpx;
+  height: 300cpx;
+  line-height: 300cpx;
+  justify-content: center;
   align-items: center;
 }
 
@@ -33,7 +72,7 @@ export default new Index();
 {
   "base": {
     "usingComponents": {
-      "cal-index": "/components/cal-index/cal-index"
+      //"cal-index": "/components/cal-index/cal-index"
     }
   },
   "wx": {

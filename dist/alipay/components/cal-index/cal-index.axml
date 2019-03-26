@@ -1,3 +1,4 @@
-<view class="demo-com  cml-base cml-view cml-6c294480">
-  <text class="title  cml-base cml-text cml-6c294480">{{title}}</text>
+<view class="cal-hd  cml-base cml-view cml-6c294480">
+  <text class="equation  cml-base cml-text cml-6c294480">{{title}}</text>
+  <text class="result  cml-base cml-text cml-6c294480">0</text>
 </view>

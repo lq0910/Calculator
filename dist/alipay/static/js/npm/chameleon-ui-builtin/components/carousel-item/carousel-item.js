@@ -1,5 +1,5 @@
 var __CML__GLOBAL = require("../../../../manifest.js");
-__CML__GLOBAL.webpackJsonp([23],{
+__CML__GLOBAL.webpackJsonp([22],{
 
 /***/ "./C:/Users/hding-lq/AppData/Roaming/npm/node_modules/chameleon-tool/node_modules/babel-loader/lib/index.js?{\"filename\":\"C:\\\\Users\\\\hding-lq\\\\AppData\\\\Roaming\\\\npm\\\\node_modules\\\\chameleon-tool\\\\chameleon.js\"}!./C:/Users/hding-lq/AppData/Roaming/npm/node_modules/chameleon-tool/node_modules/chameleon-loader/src/selector.js?type=script&index=0&fileType=component&media=dev&cmlType=alipay&isInjectBaseStyle=true&check={\"enable\":true,\"enableTypes\":[]}!./node_modules/chameleon-ui-builtin/components/carousel-item/carousel-item.alipay.cml":
 /***/ (function(module, exports, __webpack_require__) {

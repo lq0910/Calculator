@@ -1,7 +1,10 @@
 <template>
-  <view class="demo-com">
-    <text class="title">{{title}}</text>
+
+  <view class="cal-hd">
+    <text class="equation">{{title}}</text>
+    <text class="result">0</text>
   </view>
+  
 </template>
 
 <script>
@@ -10,7 +13,7 @@ class CalIndex {
   props = {
     title: {
       type: String,
-      default: ''
+      default: '1+1'
     },
     imageSrc: {
       type: String,
@@ -57,12 +60,39 @@ export default new CalIndex();
   flex-direction: column;
   align-items: center;
 }
-.title {
+.cal-hd {
+  border:1px solid #e5e5e56b;
+  border-radius: 10cpx;
+  display:flex;
+  margin:26cpx;
+  padding:16cpx;
+}
+.equation {
   align-self: center;
   color: #61c7fc;
-  font-size: 72cpx;
-  margin-top: 160cpx;
+  font-size: 62cpx;
+  margin-top: 120cpx;
   margin-bottom: 20cpx;
+}
+.result {
+  color:black;
+  font-size:72cpx;
+  font-weight:bold;
+  text-align:right;
+}
+.cal-bd {
+  display: flex;
+  font-size: 32cpx;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.cal-bd-item {
+  width: 200cpx;
+  height: 300cpx;
+  line-height: 300cpx;
+  justify-content: center;
+  align-items: center;
 }
 .logo {
   width: 150cpx;

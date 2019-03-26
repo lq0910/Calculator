@@ -1,7 +1,8 @@
 <cml-buildin-page title="chameleon" class=" cml-base cml-page">
-    <cml-buildin-scroller height="{{-1}}" class=" cml-base cml-scroller">
-      <view class="scroller-wrap  cml-base cml-view">
-        <cal-index title="{{title}}" class=" cml-base cml-cal-index"></cal-index>
-      </view>
-    </cml-buildin-scroller>
+  <view class="container  cml-base cml-view">
+      <view class="cal-hd  cml-base cml-view">
+      <text class="equation  cml-base cml-text">{{title}}</text>
+      <text class="result  cml-base cml-text">0</text>
+  </view>
+  </view>
 </cml-buildin-page>

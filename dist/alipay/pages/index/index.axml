@@ -1,7 +1,8 @@
 <view class=" cml-base cml-view cml-965f9fc8"><cml-buildin-page title="chameleon" class=" cml-base cml-page cml-965f9fc8">
-    <view class=" cml-base cml-view cml-965f9fc8"><cml-buildin-scroller height="{{-1}}" class=" cml-base cml-scroller cml-965f9fc8">
-      <view class="scroller-wrap  cml-base cml-view cml-965f9fc8">
-        <view class=" cml-base cml-view cml-965f9fc8"><cal-index title="{{title}}" class=" cml-base cml-cal-index cml-965f9fc8"></cal-index></view>
-      </view>
-    </cml-buildin-scroller></view>
+  <view class="container  cml-base cml-view cml-965f9fc8">
+      <view class="cal-hd  cml-base cml-view cml-965f9fc8">
+      <text class="equation  cml-base cml-text cml-965f9fc8">{{title}}</text>
+      <text class="result  cml-base cml-text cml-965f9fc8">0</text>
+  </view>
+  </view>
   </cml-buildin-page></view>

@@ -1,5 +1,5 @@
 var __CML__GLOBAL = require("../../manifest.js");
-__CML__GLOBAL.webpackJsonp([4],{
+__CML__GLOBAL.webpackJsonp([8],{
 
 /***/ "./C:/Users/hding-lq/AppData/Roaming/npm/node_modules/chameleon-tool/node_modules/babel-loader/lib/index.js?{\"filename\":\"C:\\\\Users\\\\hding-lq\\\\AppData\\\\Roaming\\\\npm\\\\node_modules\\\\chameleon-tool\\\\chameleon.js\"}!./C:/Users/hding-lq/AppData/Roaming/npm/node_modules/chameleon-tool/node_modules/chameleon-loader/src/selector.js?type=script&index=0&fileType=page&media=dev&cmlType=wx&isInjectBaseStyle=true&check={\"enable\":true,\"enableTypes\":[]}!./src/pages/index/index.cml":
 /***/ (function(module, exports, __webpack_require__) {
@@ -20,7 +20,7 @@ var Index = function Index() {
   _classCallCheck(this, Index);
 
   this.data = {
-    title: "cal init"
+    title: "1+1"
     //chameleonSrc: require('../../assets/images/chameleon.png')
   };
 };
